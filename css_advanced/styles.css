@@ -242,7 +242,38 @@ section.first .profile img {
   color: #555555;
 }
 
+footer {
+    background-color: #001F3F; /* Dark Blue */
+    padding: 20px;
+    text-align: center;
+}
 
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 40px; /* Adjust as needed */
+}
+
+.social-icons a img {
+    width: 24px;
+    margin: 0 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.social-icons a:hover img {
+    opacity: 0.7; /* Hover effect */
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 14px;
+}
 
 
 
