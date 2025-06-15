@@ -77,6 +77,55 @@ section.first .profile img {
     color: #FFFFFF; /* White text */
 }
 
+.videos-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.video-item {
+  width: 22%;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.video-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.video-description {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.video-author {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.video-rating {
+  color: #ffcc00;
+  margin-bottom: 5px;
+}
+
+.video-duration {
+  font-size: 14px;
+  color: #666;
+}
+
 .quote-section .person-title {
     font-size: 1em;
     color: #FFFFFF; /* White text */
