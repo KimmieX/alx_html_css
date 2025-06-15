@@ -57,4 +57,28 @@ section.first .profile img {
     height: 100px;
 }
 
-section.first .profile .
+.quote-section {
+    background-color: #DDA0DD; /* Purple background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.quote-section .quote {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #FFFFFF; /* White text */
+}
+
+.quote-section .person-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFFFFF; /* White text */
+}
+
+.quote-section .person-title {
+    font-size: 1em;
+    color: #FFFFFF; /* White text */
+}
+
