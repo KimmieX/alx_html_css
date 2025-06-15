@@ -131,3 +131,65 @@ section.first .profile img {
     color: #FFFFFF; /* White text */
 }
 
+.membership-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.membership-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.membership-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.membership-column {
+  flex: 1 1 calc(33.333% - 20px);
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 8px;
+}
+
+.membership-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.membership-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.membership-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.register-button {
+  background-color: #0078D4;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #005ea2;
+}
+
+
+
